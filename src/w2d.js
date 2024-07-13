@@ -38,5 +38,5 @@ const excel = async () => {
     xlsx.writeFile(workbook, 'w2d-emailList.xlsx');
 }
 
-await excel();
+await excel();e
 console.log('Document successfully created');
